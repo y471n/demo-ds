@@ -1,6 +1,6 @@
 {
   "name": "stake-assess-ds",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "private": false,
   "main": "lib/index.js",
   "files": [
