@@ -3132,7 +3132,7 @@
     "prop-types" "^15.7.2"
     "regenerator-runtime" "^0.13.7"
 
-"@storybook/addons@^6.3.0", "@storybook/addons@6.3.4":
+"@storybook/addons@^6 || >=6.0.0-0 || >=6.1.0-0 || >=6.2.0-0 || >=6.3.0-0 || >=6.4.0-0", "@storybook/addons@^6.3.0", "@storybook/addons@6.3.4":
   "integrity" "sha512-rf8K8X3JrB43gq5nw5SYgfucQkFg2QgUMWdByf7dQ4MyIl5zet+2MYiSXJ9lfbhGKJZ8orc81rmMtiocW4oBjg=="
   "resolved" "https://registry.npmjs.org/@storybook/addons/-/addons-6.3.4.tgz"
   "version" "6.3.4"
@@ -3271,7 +3271,7 @@
     "ts-dedent" "^2.0.0"
     "util-deprecate" "^1.0.2"
 
-"@storybook/client-api@6.3.4":
+"@storybook/client-api@^6 || >=6.0.0-0 || >=6.1.0-0 || >=6.2.0-0 || >=6.3.0-0 || >=6.4.0-0", "@storybook/client-api@6.3.4":
   "integrity" "sha512-lOrfz8ic3+nHZzqIdNH2I7Q3Wp0kS/Ic0PD/3QKvI2f6iVIapIjjWW1xAuor80Dl7rMhOn8zxgXta+7G7Pn2yQ=="
   "resolved" "https://registry.npmjs.org/@storybook/client-api/-/client-api-6.3.4.tgz"
   "version" "6.3.4"
@@ -3578,7 +3578,7 @@
     "react-docgen-typescript" "^2.0.0"
     "tslib" "^2.0.0"
 
-"@storybook/react@^6.3.4", "@storybook/react@>=5.2":
+"@storybook/react@^6 || >=6.0.0-0 || >=6.1.0-0 || >=6.2.0-0 || >=6.3.0-0 || >=6.4.0-0", "@storybook/react@^6.3.4", "@storybook/react@>=5.2":
   "integrity" "sha512-A4wycYqu/IcIaFb0cw2dPi8azhDj3SWZZModSRaQP3GkKi1LH5p14corP8RLKu2+dWC3FP4ZR6Yyaq/ymPGMzA=="
   "resolved" "https://registry.npmjs.org/@storybook/react/-/react-6.3.4.tgz"
   "version" "6.3.4"
@@ -3646,6 +3646,11 @@
     "lodash" "^4.17.20"
     "prettier" "~2.2.1"
     "regenerator-runtime" "^0.13.7"
+
+"@storybook/testing-react@^0.0.21":
+  "integrity" "sha512-SIE1gNWhqCz0LSjwUiQb7JPgPUY3amT0EGMXdTq/qpV0gC9WR7+aBM/uInx3XstE6t4gx+H8euDT98ZKH1Twow=="
+  "resolved" "https://registry.npmjs.org/@storybook/testing-react/-/testing-react-0.0.21.tgz"
+  "version" "0.0.21"
 
 "@storybook/theming@^6.3.0", "@storybook/theming@6.3.4":
   "integrity" "sha512-L0lJcwUi7mse+U7EBAv5NVt81mH1MtUzk9paik8hMAc68vDtR/X0Cq4+zPsgykCROOTtEGrQ/JUUrpcEqeprTQ=="

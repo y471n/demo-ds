@@ -15,6 +15,7 @@ const Template: Story<TextInputProps> = (args) => <TextInput {...args} />;
 export const Default = Template.bind({});
 Default.args = {
   width: "250px",
+  name: "default",
 };
 
 export const Placeholder = Template.bind({});
@@ -59,7 +60,7 @@ export const Clearable = () => {
       placeholder="Type and clear"
       width="250px"
       value={value}
-      onChange={(e) => setValue(e.currentTarget.value)}
+      onChange={(e: any) => setValue(e.currentTarget.value)}
       clearable
     />
   );

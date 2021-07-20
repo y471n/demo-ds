@@ -9,7 +9,7 @@ export type BaseCardProps = {
   children?: React.ReactNode;
 };
 
-type CardProps = {
+export type CardProps = {
   onClick?: MouseEventHandler<HTMLDivElement>;
 } & BaseCardProps;
 

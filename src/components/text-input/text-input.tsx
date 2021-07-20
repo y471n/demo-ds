@@ -63,6 +63,7 @@ const TextInput: React.ForwardRefRenderFunction<
         ref={ref}
         className={className}
         placeholder={placeholder}
+        role="input"
         {...styles}
         {...rest}
       />
